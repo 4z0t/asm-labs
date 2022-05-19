@@ -1,5 +1,7 @@
 #include <iostream>
 
+
+//compiles only on version 11 and higher (e.g. x86-64 gcc 11.1)
 void task1()
 {
     int x = 0x7ffffffe;
@@ -145,9 +147,7 @@ void task8()
 }
 
 
-
-
 int main()
 {
-    task2();    
+    task2();
 }

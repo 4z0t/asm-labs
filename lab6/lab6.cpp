@@ -54,7 +54,7 @@ void task3()
 }
 
 //1
-// g++ ./lab6.cpp -mavx -o lab6
+// -mavx flag required
 void task4()
 {
            double x = 7.5432423;
